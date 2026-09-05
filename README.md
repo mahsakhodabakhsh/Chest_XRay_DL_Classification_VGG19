@@ -1,5 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/31869766/README.1.md)
-
 # Chest X-Ray Classification — VGG19 + Fine-Tuning
 
 Multi-class chest X-ray classifier (Bacterial, Covid, Enlarged Cardiomediastinum, Normal, Viral) built with a VGG19 backbone: frozen transfer learning followed by fine-tuning of the last conv block.
@@ -35,14 +33,3 @@ Download the [VGG19 no-top weights](https://github.com/fchollet/deep-learning-mo
 
 Open `chest_xray_vgg19.ipynb` and run top to bottom.
 
-## Results
-
-| Metric | Value |
-|---|---|
-| Test accuracy | — |
-| Test loss | — |
-
-## Notes
-
-- "Enlarged Cardiomediastinum" is a radiological finding, not an infection type — worth keeping in mind alongside the other 4 classes.
-- Small dataset (250 train images) — results should be read with that in mind.
